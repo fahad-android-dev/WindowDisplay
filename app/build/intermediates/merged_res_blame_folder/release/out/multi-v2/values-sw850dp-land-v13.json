@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.orbits.queuingsystem.app-mergeReleaseResources-3:/values-sw850dp-land-v13/values-sw850dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Fahad\\WindowDisplayVersionTwo\\app\\src\\main\\res\\values-sw850dp-land\\dimens.xml",
+                    "from": {
+                        "startLines": "7,10,12,9,8,11",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "208,361,473,311,268,412",
+                        "endColumns": "58,49,46,48,41,59",
+                        "endOffsets": "262,406,515,355,305,467"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,114,164,211,260,302",
+                        "endColumns": "58,49,46,48,41,59",
+                        "endOffsets": "109,159,206,255,297,357"
+                    }
+                }
+            ]
+        }
+    ]
+}

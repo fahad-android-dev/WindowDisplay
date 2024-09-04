@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/red_border_in_black_bg"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:id="@+id/layoutBranchName"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <include
+            android:id="@+id/layoutConnectivity"
+            layout="@layout/layout_connectivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true" />
+
+        <TextView
+            android:id="@+id/txtBranchName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Branch name" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/rightLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.75"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtServiceName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="service name"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/txtTokenNo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:fitsSystemWindows="false"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:lines="1"
+            android:longClickable="true"
+            android:scrollHorizontally="false"
+            android:text="000"
+            android:textColor="@drawable/token_color"
+            android:typeface="monospace" />
+    </LinearLayout>
+
+</LinearLayout>

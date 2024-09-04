@@ -1,0 +1,7 @@
+com.orbits.queuingsystem.test.app-androidTest-0 C:\Fahad\WindowDisplayVersionTwo\app\build\generated\res\resValues\androidTest\debug
+com.orbits.queuingsystem.test.app-androidTest-1 C:\Fahad\WindowDisplayVersionTwo\app\build\generated\res\rs\androidTest\debug
+com.orbits.queuingsystem.test.app-mergeDebugAndroidTestResources-2 C:\Fahad\WindowDisplayVersionTwo\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.orbits.queuingsystem.test.app-mergeDebugAndroidTestResources-3 C:\Fahad\WindowDisplayVersionTwo\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.orbits.queuingsystem.test.app-merged_res-4 C:\Fahad\WindowDisplayVersionTwo\app\build\intermediates\merged_res\debugAndroidTest
+com.orbits.queuingsystem.test.app-androidTest-5 C:\Fahad\WindowDisplayVersionTwo\app\src\androidTest\res
+com.orbits.queuingsystem.test.app-androidTestDebug-6 C:\Fahad\WindowDisplayVersionTwo\app\src\androidTestDebug\res

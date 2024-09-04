@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 34
+
+
+    defaultConfig {
+        applicationId "com.orbits.queuingsystem"
+        minSdkVersion 16
+        targetSdkVersion 34
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    sourceSets.main {
+        //disable automatic ndk-build call
+        jniLibs.srcDir "src/main/libs"
+    }
+    namespace 'com.orbits.queuingsystem'
+
+}
+
+dependencies {
+    implementation files('libs/jtds-1.2.5.jar')
+    implementation files('libs/jxl.jar')
+    implementation files('libs/poi-3.9-20121203.jar')
+    implementation files('libs/httpclient-4.0.3.jar')
+    implementation files('libs/apache-httpcomponents-httpcore.jar')
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation files('libs/ksoap2-android-assembly-3.4.0-jar-with-dependencies.jar')
+
+}

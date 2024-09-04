@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialogBox"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textServerName"
+                    android:layout_width="10dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.35"
+                    android:gravity="right|center_vertical"
+                    android:text="Server IP Address:" />
+
+                <EditText
+                    android:id="@+id/editServerName"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.65"
+                    android:ems="10"
+                    android:hint="Server IP address"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true" />
+            </LinearLayout>
+            <!--Arham Momin 04:21 PM-->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textCounterNo"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.35"
+                    android:gravity="end|center_vertical"
+                    android:text="Queuing TCP/IP port:" />
+
+                <EditText
+                    android:id="@+id/editQueueTCP_Port"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.65"
+                    android:ems="10"
+                    android:hint="Queuing TCP/IP port"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textQueueTcpPort"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.35"
+                    android:gravity="end|center_vertical"
+                    android:text="Counter No:" />
+
+                <EditText
+                    android:id="@+id/editCounterNo"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.65"
+                    android:ems="10"
+                    android:hint="Counter No"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:singleLine="true"
+                    tools:ignore="Autofill" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.35"
+                    android:gravity="end|center_vertical"
+                    android:text="Show Ad/Counter/Nothing:" />
+
+                <Spinner
+                    android:id="@+id/spinnerAdCounter"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.65"
+                    android:ems="10"
+                    android:imeOptions="actionDone"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:visibility="gone"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.35"
+                    android:gravity="end|center_vertical"
+                    android:text="Top:"/>
+
+                <Spinner
+                    android:id="@+id/spinner_top"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.65"
+                    android:ems="10"
+                    android:imeOptions="actionDone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.35"
+                    android:gravity="end|center_vertical"
+                    android:text="ServiceConfig : " />
+
+                <Spinner
+                    android:id="@+id/spinner_middle"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.65"
+                    android:ems="10"
+                    android:imeOptions="actionDone"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textServiceName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Service Name"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/textBranchName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Branch Name"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.4"
+                    android:gravity="end|center_vertical"
+                    android:hint="Show Logo" />
+
+                <CheckBox
+                    android:id="@+id/chkLogo"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.1" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.3"
+                    android:gravity="end|center_vertical"
+                    android:hint="Show Scroll" />
+
+                <CheckBox
+                    android:id="@+id/chkScroll"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="start|center_vertical" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/txtCurrentTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="end|center_vertical"
+                    android:text="Show Time"
+                    android:textStyle="normal"/>
+
+                <CheckBox
+                    android:id="@+id/chkShowTimeCheckbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.4"
+                    android:gravity="right|center_vertical"
+                    android:hint="Restart App" />
+
+                <CheckBox
+                    android:id="@+id/chkRestart"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.1" />
+
+                <EditText
+                    android:id="@+id/editTimeToRestart"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="0.5"
+                    android:hint="Enter time for restart"
+                    android:padding="5dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.4"
+                    android:gravity="end|center_vertical"
+                    android:hint="Show Service Name" />
+
+                <CheckBox
+                    android:id="@+id/chkServiceName"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.1" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.3"
+                    android:gravity="end|center_vertical"
+                    android:hint="Show Branch Name" />
+
+                <CheckBox
+                    android:id="@+id/chkBranchName"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.1"
+                    android:gravity="start|center_vertical" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="end|center_vertical"
+                    android:hint="Show Time" />
+
+                <CheckBox
+                    android:id="@+id/chkShowTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dip"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="0.3"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/textCheck"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.6"
+                    android:gravity="right|center_vertical"
+                    android:hint="Android Server" />
+
+                <CheckBox
+                    android:id="@+id/chkAndroid"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.1" />
+
+            </LinearLayout>
+            <!--            <LinearLayout-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginTop="20dp"-->
+            <!--                android:layout_gravity="center_horizontal"-->
+            <!--                android:orientation="horizontal"-->
+            <!--                android:weightSum="1">-->
+
+            <!--                <TextView-->
+            <!--                    android:layout_width="90dp"-->
+            <!--                    android:layout_height="match_parent"-->
+            <!--                    android:layout_weight="0.4"-->
+            <!--                    android:gravity="right|center_vertical"-->
+            <!--                    android:hint="Black theme" />-->
+
+            <!--                <CheckBox-->
+            <!--                    android:id="@+id/chkShowDarkTheme"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="fill_parent" />-->
+            <!--            </LinearLayout>-->
+            <!--            <LinearLayout-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginTop="20dp"-->
+            <!--                android:layout_gravity="center_horizontal"-->
+            <!--                android:orientation="horizontal"-->
+            <!--                android:weightSum="1">-->
+
+            <!--                <TextView-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="fill_parent"-->
+            <!--                    android:gravity="end|center_vertical"-->
+            <!--                    android:hint="White theme" />-->
+
+            <!--                <CheckBox-->
+            <!--                    android:id="@+id/chkShowLigthTheme"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="fill_parent" />-->
+            <!--            </LinearLayout>-->
+            <!--<LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.35"
+                    android:gravity="end|center_vertical"
+                    android:text="Show Ad/Counter/Nothing:" />
+                <Spinner
+                    android:id="@+id/spinnerAdCounter"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.65"
+                    android:ems="10"
+                    android:imeOptions="actionDone"
+                    android:inputType="number" />
+            </LinearLayout>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="start"
+                android:visibility="gone"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:gravity="start|center_vertical"
+                    android:text="Show service Name/Branch Name/Time:"
+                    android:textSize="16sp" />
+
+                <CheckBox
+                    android:id="@+id/checkboxAll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

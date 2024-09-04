@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_scroll_blue_bg">#BCE4F4</color>
+    <color name="color_scroll_black_bg">#000000</color>
+    <color name="text_shadow_white">#000</color>
+</resources>

@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "com.orbits.queuingsystem.app-mergeReleaseResources-4:/layout/activity_main_scroll_without_ad.xml",
+        "source": "com.orbits.queuingsystem.app-main-6:/layout/activity_main_scroll_without_ad.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-mergeReleaseResources-4:/layout/dialog_license_entry.xml",
+        "source": "com.orbits.queuingsystem.app-main-6:/layout/dialog_license_entry.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-mergeReleaseResources-4:/layout/layout_connectivity.xml",
+        "source": "com.orbits.queuingsystem.app-main-6:/layout/layout_connectivity.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-mergeReleaseResources-4:/layout/activity_main_full_screen.xml",
+        "source": "com.orbits.queuingsystem.app-main-6:/layout/activity_main_full_screen.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-mergeReleaseResources-4:/layout/activity_token.xml",
+        "source": "com.orbits.queuingsystem.app-main-6:/layout/activity_token.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-mergeReleaseResources-4:/layout/layout_bottom_sheet_picker.xml",
+        "source": "com.orbits.queuingsystem.app-main-6:/layout/layout_bottom_sheet_picker.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-mergeReleaseResources-4:/layout/activity_main_ad_without_scroll.xml",
+        "source": "com.orbits.queuingsystem.app-main-6:/layout/activity_main_ad_without_scroll.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-mergeReleaseResources-4:/layout/activity_advertise.xml",
+        "source": "com.orbits.queuingsystem.app-main-6:/layout/activity_advertise.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-mergeReleaseResources-4:/layout/activity_keyboard.xml",
+        "source": "com.orbits.queuingsystem.app-main-6:/layout/activity_keyboard.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-mergeReleaseResources-4:/layout/dialog_dbconfig.xml",
+        "source": "com.orbits.queuingsystem.app-main-6:/layout/dialog_dbconfig.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-mergeReleaseResources-4:/layout/activity_main_ad_without_logo_scroll.xml",
+        "source": "com.orbits.queuingsystem.app-main-6:/layout/activity_main_ad_without_logo_scroll.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-mergeReleaseResources-4:/layout/activity_token_service_branch_name.xml",
+        "source": "com.orbits.queuingsystem.app-main-6:/layout/activity_token_service_branch_name.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-mergeReleaseResources-4:/layout/activity_company_logo.xml",
+        "source": "com.orbits.queuingsystem.app-main-6:/layout/activity_company_logo.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-mergeReleaseResources-4:/layout/layout_select_counter_dialog.xml",
+        "source": "com.orbits.queuingsystem.app-main-6:/layout/layout_select_counter_dialog.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-mergeReleaseResources-4:/layout/activity_main_ad_scroll_without_logo.xml",
+        "source": "com.orbits.queuingsystem.app-main-6:/layout/activity_main_ad_scroll_without_logo.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-mergeReleaseResources-4:/layout/activity_main.xml",
+        "source": "com.orbits.queuingsystem.app-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-mergeReleaseResources-4:/layout/layout_main_service_branch_name.xml",
+        "source": "com.orbits.queuingsystem.app-main-6:/layout/layout_main_service_branch_name.xml"
+    }
+]

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/innerLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1.0"
+    android:background="#fff">
+
+    <LinearLayout
+        android:id="@+id/leftLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/advertise"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/txtCounterNo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fitsSystemWindows="false"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:lines="1"
+            android:longClickable="true"
+            android:scrollHorizontally="false"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceLargeInverse"
+            android:textColor="@drawable/token_color"
+            android:typeface="monospace"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/imgAdvertise"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_gravity="fill"
+            android:layout_weight="1.0"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/hello_world"
+            android:scaleType="fitXY"
+            android:src="@drawable/advertise"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/videoLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <VideoView
+            android:id="@+id/videoPlayer"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="fill" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/keyboardlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/editTxtNumPad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <android.inputmethodservice.KeyboardView
+            android:id="@+id/keyboardview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</RelativeLayout>

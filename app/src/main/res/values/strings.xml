@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Window Display v5.6</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">000</string>
+    <string name="title_activity_advertise">AdvertiseActivity</string>
+    <string name="title_activity_token">TokenActivity</string>
+    <string name="english_scrolltext">This is the message which will be scrolled.</string>
+    <string name="arabic_scrolltext">هذه هي الرسالة التي سيتم تمريره بسرعة تعريف المستخدم</string>
+    <string name="companyLogo">Company Logo</string>
+    <string name="title_activity_company_logo">CompanyLogo</string>
+    <string name="title_activity_img_advertise">ImgAdvertiseActivity</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="action_toggle_ads">Toggle Advertisement</string>
+    <string name="str_toggle_scroll">Toggle Scroll</string>
+    <string name="str_toggle_logo">Toggle Logo</string>
+    <string name="get_full_license_btn_text">Get Full-License</string>
+    <string name="get_trial_license_btn_text">Get Trial-License</string>
+    <string name="str_show_counter">Toggle Counter</string>
+    <string name="enter_counter_details">Enter counter details</string>
+    <string name="select_counter">Select Counter</string>
+    <string name="confirm">Confirm</string>
+    <string name="done">Done</string>
+    <string name="select_counter_id">Select Counter Id</string>
+    <string-array name="spinner_array">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>

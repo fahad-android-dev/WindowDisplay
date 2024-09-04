@@ -1,0 +1,226 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.orbits.queuingsystem"
+4    android:installLocation="preferExternal"
+5    android:versionCode="42"
+6    android:versionName="4.2" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="19"
+9-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="19" />
+10-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:7:5-81
+12-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:7:22-78
+13    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+13-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:8:5-81
+13-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:8:22-79
+14    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+14-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:9:5-81
+14-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:9:22-78
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:10:5-76
+15-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:10:22-73
+16    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+16-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:11:5-76
+16-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:11:22-73
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:12:5-67
+17-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:12:22-64
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:13:5-79
+18-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:13:22-76
+19
+20    <permission android:name="android.permission.REBOOT" />
+20-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:14:5-60
+20-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:14:17-57
+21
+22    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+22-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:15:5-78
+22-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:15:22-75
+23
+24    <permission
+24-->[androidx.core:core:1.13.1] C:\Users\Zibyan\.gradle\caches\transforms-3\2437de73b31a3e7b1dd3ddbdf5f81585\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+25        android:name="com.orbits.queuingsystem.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+25-->[androidx.core:core:1.13.1] C:\Users\Zibyan\.gradle\caches\transforms-3\2437de73b31a3e7b1dd3ddbdf5f81585\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+26        android:protectionLevel="signature" />
+26-->[androidx.core:core:1.13.1] C:\Users\Zibyan\.gradle\caches\transforms-3\2437de73b31a3e7b1dd3ddbdf5f81585\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+27
+28    <uses-permission android:name="com.orbits.queuingsystem.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+28-->[androidx.core:core:1.13.1] C:\Users\Zibyan\.gradle\caches\transforms-3\2437de73b31a3e7b1dd3ddbdf5f81585\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+28-->[androidx.core:core:1.13.1] C:\Users\Zibyan\.gradle\caches\transforms-3\2437de73b31a3e7b1dd3ddbdf5f81585\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+29
+30    <application
+30-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:17:5-82:19
+31        android:allowBackup="true"
+31-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:18:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.13.1] C:\Users\Zibyan\.gradle\caches\transforms-3\2437de73b31a3e7b1dd3ddbdf5f81585\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+33        android:directBootAware="true"
+33-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:19:9-39
+34        android:icon="@mipmap/ic_launcher_new"
+34-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:20:9-47
+35        android:label="@string/app_name"
+35-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:21:9-41
+36        android:networkSecurityConfig="@xml/network_security_config"
+36-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:23:9-69
+37        android:roundIcon="@mipmap/ic_launcher_new_round"
+37-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:22:9-58
+38        android:screenOrientation="sensorLandscape"
+38-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:24:9-52
+39        android:theme="@style/Theme.QueuingSystem"
+39-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:25:9-51
+40        android:usesCleartextTraffic="true" >
+40-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:26:9-44
+41        <uses-library
+41-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:27:9-29:40
+42            android:name="org.apache.http.legacy"
+42-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:28:13-50
+43            android:required="false" />
+43-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:29:13-37
+44        <!-- Declares the input method service -->
+45        <!-- <service -->
+46        <!-- android:name="com.orbits.queuingsystem.FastInputIME" -->
+47        <!-- android:label="@string/hello_world" -->
+48        <!-- android:permission="android.permission.BIND_INPUT_METHOD"> -->
+49        <!-- <intent-filter> -->
+50        <!-- <action android:name="android.view.InputMethod" /> -->
+51        <!-- </intent-filter> -->
+52
+53
+54        <!-- <meta-data -->
+55        <!-- android:name="android.view.im" -->
+56        <!-- android:resource="@xml/numkbd" /> -->
+57        <!-- </service> -->
+58
+59        <activity
+59-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:44:9-54:20
+60            android:name="com.orbits.queuingsystem.MainActivity"
+60-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:45:13-41
+61            android:exported="true"
+61-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:48:13-36
+62            android:label="@string/app_name"
+62-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:46:13-45
+63            android:screenOrientation="sensorLandscape" >
+63-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:47:13-56
+64            <intent-filter>
+64-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:49:13-53:29
+65                <action android:name="android.intent.action.MAIN" />
+65-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:50:17-69
+65-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:50:25-66
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:52:17-77
+67-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:52:27-74
+68            </intent-filter>
+69        </activity>
+70
+71        <receiver
+71-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:55:9-62:20
+72            android:name="com.orbits.queuingsystem.BootReceiver"
+72-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:56:13-41
+73            android:exported="true" >
+73-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:57:13-36
+74            <intent-filter>
+74-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:58:13-61:29
+75                <action android:name="android.intent.action.BOOT_COMPLETED" />
+75-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:59:17-79
+75-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:59:25-76
+76
+77                <category android:name="android.intent.category.HOME" />
+77-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:60:17-73
+77-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:60:27-70
+78            </intent-filter>
+79        </receiver>
+80
+81        <activity android:name="com.orbits.queuingsystem.Utils" />
+81-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:63:9-76
+81-->C:\Fahad\WindowDisplayVersionTwo\app\src\main\AndroidManifest.xml:63:19-64
+82        <!--
+83        <activity
+84            android:name="com.orbits.queuingsystem.AdvertiseActivity"
+85            android:label="@string/title_activity_advertise" >
+86        </activity>
+87        <activity
+88            android:name="com.orbits.queuingsystem.TokenActivity"
+89            android:label="@string/title_activity_token" >
+90        </activity>
+91        <activity
+92            android:name="com.orbits.queuingsystem.CompanyLogo"
+93            android:label="@string/title_activity_company_logo" >
+94        </activity>
+95        <activity
+96            android:name="com.orbits.queuingsystem.ImgAdvertiseActivity"
+97            android:label="@string/title_activity_img_advertise" >
+98        </activity>
+99        -->
+100        <provider
+100-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Zibyan\.gradle\caches\transforms-3\a0f285aeb5b6d755a24891dc83829aaf\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+101            android:name="androidx.startup.InitializationProvider"
+101-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Zibyan\.gradle\caches\transforms-3\a0f285aeb5b6d755a24891dc83829aaf\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+102            android:authorities="com.orbits.queuingsystem.androidx-startup"
+102-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Zibyan\.gradle\caches\transforms-3\a0f285aeb5b6d755a24891dc83829aaf\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+103            android:exported="false" >
+103-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Zibyan\.gradle\caches\transforms-3\a0f285aeb5b6d755a24891dc83829aaf\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+104            <meta-data
+104-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Zibyan\.gradle\caches\transforms-3\a0f285aeb5b6d755a24891dc83829aaf\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+105                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+105-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Zibyan\.gradle\caches\transforms-3\a0f285aeb5b6d755a24891dc83829aaf\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+106                android:value="androidx.startup" />
+106-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Zibyan\.gradle\caches\transforms-3\a0f285aeb5b6d755a24891dc83829aaf\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+107            <meta-data
+107-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Zibyan\.gradle\caches\transforms-3\da33903e8aea7617197e39fc2a30cacd\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+108                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+108-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Zibyan\.gradle\caches\transforms-3\da33903e8aea7617197e39fc2a30cacd\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+109                android:value="androidx.startup" />
+109-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Zibyan\.gradle\caches\transforms-3\da33903e8aea7617197e39fc2a30cacd\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+110            <meta-data
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zibyan\.gradle\caches\transforms-3\c651c3babb19f43f9c255ac18e94f5ad\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+111                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zibyan\.gradle\caches\transforms-3\c651c3babb19f43f9c255ac18e94f5ad\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+112                android:value="androidx.startup" />
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zibyan\.gradle\caches\transforms-3\c651c3babb19f43f9c255ac18e94f5ad\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+113        </provider>
+114
+115        <receiver
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zibyan\.gradle\caches\transforms-3\c651c3babb19f43f9c255ac18e94f5ad\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+116            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zibyan\.gradle\caches\transforms-3\c651c3babb19f43f9c255ac18e94f5ad\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+117            android:directBootAware="false"
+117-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zibyan\.gradle\caches\transforms-3\c651c3babb19f43f9c255ac18e94f5ad\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+118            android:enabled="true"
+118-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zibyan\.gradle\caches\transforms-3\c651c3babb19f43f9c255ac18e94f5ad\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+119            android:exported="true"
+119-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zibyan\.gradle\caches\transforms-3\c651c3babb19f43f9c255ac18e94f5ad\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+120            android:permission="android.permission.DUMP" >
+120-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zibyan\.gradle\caches\transforms-3\c651c3babb19f43f9c255ac18e94f5ad\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+121            <intent-filter>
+121-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zibyan\.gradle\caches\transforms-3\c651c3babb19f43f9c255ac18e94f5ad\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+122                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+122-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zibyan\.gradle\caches\transforms-3\c651c3babb19f43f9c255ac18e94f5ad\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+122-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zibyan\.gradle\caches\transforms-3\c651c3babb19f43f9c255ac18e94f5ad\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+123            </intent-filter>
+124            <intent-filter>
+124-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zibyan\.gradle\caches\transforms-3\c651c3babb19f43f9c255ac18e94f5ad\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+125                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+125-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zibyan\.gradle\caches\transforms-3\c651c3babb19f43f9c255ac18e94f5ad\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+125-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zibyan\.gradle\caches\transforms-3\c651c3babb19f43f9c255ac18e94f5ad\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+126            </intent-filter>
+127            <intent-filter>
+127-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zibyan\.gradle\caches\transforms-3\c651c3babb19f43f9c255ac18e94f5ad\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+128                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+128-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zibyan\.gradle\caches\transforms-3\c651c3babb19f43f9c255ac18e94f5ad\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+128-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zibyan\.gradle\caches\transforms-3\c651c3babb19f43f9c255ac18e94f5ad\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+129            </intent-filter>
+130            <intent-filter>
+130-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zibyan\.gradle\caches\transforms-3\c651c3babb19f43f9c255ac18e94f5ad\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+131                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+131-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zibyan\.gradle\caches\transforms-3\c651c3babb19f43f9c255ac18e94f5ad\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+131-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Zibyan\.gradle\caches\transforms-3\c651c3babb19f43f9c255ac18e94f5ad\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+132            </intent-filter>
+133        </receiver>
+134    </application>
+135
+136</manifest>

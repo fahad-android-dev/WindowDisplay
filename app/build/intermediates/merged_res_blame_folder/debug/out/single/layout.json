@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "C:\\Users\\Zibyan\\.gradle\\daemon\\7.3.3\\com.orbits.queuingsystem.app-mergeDebugResources-4:\\layout\\activity_main_scroll_without_ad.xml",
+        "source": "C:\\Users\\Zibyan\\.gradle\\daemon\\7.3.3\\com.orbits.queuingsystem.app-main-7:\\layout\\activity_main_scroll_without_ad.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zibyan\\.gradle\\daemon\\7.3.3\\com.orbits.queuingsystem.app-mergeDebugResources-4:\\layout\\dialog_dbconfig.xml",
+        "source": "C:\\Users\\Zibyan\\.gradle\\daemon\\7.3.3\\com.orbits.queuingsystem.app-main-7:\\layout\\dialog_dbconfig.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zibyan\\.gradle\\daemon\\7.3.3\\com.orbits.queuingsystem.app-mergeDebugResources-4:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Zibyan\\.gradle\\daemon\\7.3.3\\com.orbits.queuingsystem.app-main-7:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zibyan\\.gradle\\daemon\\7.3.3\\com.orbits.queuingsystem.app-mergeDebugResources-4:\\layout\\layout_bottom_sheet_picker.xml",
+        "source": "C:\\Users\\Zibyan\\.gradle\\daemon\\7.3.3\\com.orbits.queuingsystem.app-main-7:\\layout\\layout_bottom_sheet_picker.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zibyan\\.gradle\\daemon\\7.3.3\\com.orbits.queuingsystem.app-mergeDebugResources-4:\\layout\\activity_keyboard.xml",
+        "source": "C:\\Users\\Zibyan\\.gradle\\daemon\\7.3.3\\com.orbits.queuingsystem.app-main-7:\\layout\\activity_keyboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zibyan\\.gradle\\daemon\\7.3.3\\com.orbits.queuingsystem.app-mergeDebugResources-4:\\layout\\activity_main_ad_without_logo_scroll.xml",
+        "source": "C:\\Users\\Zibyan\\.gradle\\daemon\\7.3.3\\com.orbits.queuingsystem.app-main-7:\\layout\\activity_main_ad_without_logo_scroll.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zibyan\\.gradle\\daemon\\7.3.3\\com.orbits.queuingsystem.app-mergeDebugResources-4:\\layout\\activity_main_ad_without_scroll.xml",
+        "source": "C:\\Users\\Zibyan\\.gradle\\daemon\\7.3.3\\com.orbits.queuingsystem.app-main-7:\\layout\\activity_main_ad_without_scroll.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-mergeDebugResources-4:/layout/dialog_dbconfig.xml",
+        "source": "com.orbits.queuingsystem.app-main-7:/layout/dialog_dbconfig.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zibyan\\.gradle\\daemon\\7.3.3\\com.orbits.queuingsystem.app-mergeDebugResources-4:\\layout\\activity_company_logo.xml",
+        "source": "C:\\Users\\Zibyan\\.gradle\\daemon\\7.3.3\\com.orbits.queuingsystem.app-main-7:\\layout\\activity_company_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zibyan\\.gradle\\daemon\\7.3.3\\com.orbits.queuingsystem.app-mergeDebugResources-4:\\layout\\dialog_license_entry.xml",
+        "source": "C:\\Users\\Zibyan\\.gradle\\daemon\\7.3.3\\com.orbits.queuingsystem.app-main-7:\\layout\\dialog_license_entry.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zibyan\\.gradle\\daemon\\7.3.3\\com.orbits.queuingsystem.app-mergeDebugResources-4:\\layout\\activity_main_ad_scroll_without_logo.xml",
+        "source": "C:\\Users\\Zibyan\\.gradle\\daemon\\7.3.3\\com.orbits.queuingsystem.app-main-7:\\layout\\activity_main_ad_scroll_without_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zibyan\\.gradle\\daemon\\7.3.3\\com.orbits.queuingsystem.app-mergeDebugResources-4:\\layout\\layout_select_counter_dialog.xml",
+        "source": "C:\\Users\\Zibyan\\.gradle\\daemon\\7.3.3\\com.orbits.queuingsystem.app-main-7:\\layout\\layout_select_counter_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zibyan\\.gradle\\daemon\\7.3.3\\com.orbits.queuingsystem.app-mergeDebugResources-4:\\layout\\activity_token.xml",
+        "source": "C:\\Users\\Zibyan\\.gradle\\daemon\\7.3.3\\com.orbits.queuingsystem.app-main-7:\\layout\\activity_token.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zibyan\\.gradle\\daemon\\7.3.3\\com.orbits.queuingsystem.app-mergeDebugResources-4:\\layout\\activity_token_service_branch_name.xml",
+        "source": "C:\\Users\\Zibyan\\.gradle\\daemon\\7.3.3\\com.orbits.queuingsystem.app-main-7:\\layout\\activity_token_service_branch_name.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zibyan\\.gradle\\daemon\\7.3.3\\com.orbits.queuingsystem.app-mergeDebugResources-4:\\layout\\layout_connectivity.xml",
+        "source": "C:\\Users\\Zibyan\\.gradle\\daemon\\7.3.3\\com.orbits.queuingsystem.app-main-7:\\layout\\layout_connectivity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zibyan\\.gradle\\daemon\\7.3.3\\com.orbits.queuingsystem.app-mergeDebugResources-4:\\layout\\activity_advertise.xml",
+        "source": "C:\\Users\\Zibyan\\.gradle\\daemon\\7.3.3\\com.orbits.queuingsystem.app-main-7:\\layout\\activity_advertise.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zibyan\\.gradle\\daemon\\7.3.3\\com.orbits.queuingsystem.app-mergeDebugResources-4:\\layout\\layout_main_service_branch_name.xml",
+        "source": "C:\\Users\\Zibyan\\.gradle\\daemon\\7.3.3\\com.orbits.queuingsystem.app-main-7:\\layout\\layout_main_service_branch_name.xml"
+    },
+    {
+        "merged": "C:\\Users\\Zibyan\\.gradle\\daemon\\7.3.3\\com.orbits.queuingsystem.app-mergeDebugResources-4:\\layout\\activity_main_full_screen.xml",
+        "source": "C:\\Users\\Zibyan\\.gradle\\daemon\\7.3.3\\com.orbits.queuingsystem.app-main-7:\\layout\\activity_main_full_screen.xml"
+    }
+]

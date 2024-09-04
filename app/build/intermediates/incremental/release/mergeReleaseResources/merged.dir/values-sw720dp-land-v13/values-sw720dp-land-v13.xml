@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">128dp</dimen>
+    <dimen name="arscroll_font_size">30sp</dimen>
+    <dimen name="dialog_fontsize">27sp</dimen>
+    <dimen name="enscroll_fontsize">30sp</dimen>
+    <dimen name="font_size">200sp</dimen>
+    <dimen name="font_size_token_full_screen">650sp</dimen>
+    <dimen name="key_font_size">31sp</dimen>
+</resources>

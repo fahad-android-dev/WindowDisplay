@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_main_activity_top_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_main_top_scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.08"
+        android:background="@color/color_scroll_blue_bg"
+        android:orientation="vertical">
+
+        <com.orbits.queuingsystem.ScrollTextViewArabic
+            android:id="@+id/scrolltext_Ar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:fillViewport="true"
+            android:focusable="true"
+            android:freezesText="true"
+            android:gravity="left|center_vertical"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="@string/arabic_scrolltext"
+            android:textSize="@dimen/arscroll_font_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_container_logo_ad_token"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.84"
+        android:background="@drawable/layoutborder"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:id="@+id/ll_fragment_token_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <fragment
+                android:id="@+id/fragment_token"
+                android:name="com.orbits.queuingsystem.TokenActivity"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_main_bottom_scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.08"
+        android:background="@color/color_scroll_blue_bg"
+        android:orientation="vertical">
+
+        <com.orbits.queuingsystem.ScrollTextView
+            android:id="@+id/scrolltext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ellipsize="marquee"
+            android:fadingEdge="none"
+            android:fillViewport="true"
+            android:focusable="true"
+            android:freezesText="true"
+            android:gravity="bottom|center_vertical"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="@string/english_scrolltext"
+            android:textSize="@dimen/enscroll_fontsize" />
+    </LinearLayout>
+</LinearLayout>

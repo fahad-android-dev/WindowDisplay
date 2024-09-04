@@ -1,0 +1,334 @@
+[
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/drawable-mdpi_ic_launcher_new_background.png.flat",
+        "source": "com.orbits.queuingsystem.app-pngs-0:/drawable-mdpi/ic_launcher_new_background.png"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/drawable-hdpi_sym_keyboard_return.png.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/drawable-hdpi/sym_keyboard_return.png"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/drawable-ldpi_vector_right_square.png.flat",
+        "source": "com.orbits.queuingsystem.app-pngs-0:/drawable-ldpi/vector_right_square.png"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/drawable-mdpi_vector_right_square.png.flat",
+        "source": "com.orbits.queuingsystem.app-pngs-0:/drawable-mdpi/vector_right_square.png"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/anim_custom_anim.xml.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/anim/custom_anim.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/drawable-hdpi_vector_right_square.png.flat",
+        "source": "com.orbits.queuingsystem.app-pngs-0:/drawable-hdpi/vector_right_square.png"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/mipmap-xhdpi_ic_launcher_new.webp.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/mipmap-xhdpi/ic_launcher_new.webp"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/drawable-xxhdpi_ic_launcher_new_background.png.flat",
+        "source": "com.orbits.queuingsystem.app-pngs-0:/drawable-xxhdpi/ic_launcher_new_background.png"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/mipmap-xhdpi_ic_launcher_new_foreground.webp.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/mipmap-xhdpi/ic_launcher_new_foreground.webp"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/layout_activity_main_ad_without_logo_scroll.xml.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/layout/activity_main_ad_without_logo_scroll.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/drawable_container_dropshadow.xml.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/drawable/container_dropshadow.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/drawable-hdpi_sym_keyboard_delete.png.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/drawable-hdpi/sym_keyboard_delete.png"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/layout_activity_main_ad_without_scroll.xml.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/layout/activity_main_ad_without_scroll.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/mipmap-anydpi-v26_ic_launcher_new.xml.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/mipmap-anydpi-v26/ic_launcher_new.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/mipmap-xhdpi_ic_launcher_new_round.webp.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/mipmap-xhdpi/ic_launcher_new_round.webp"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/layout_activity_main_full_screen.xml.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/layout/activity_main_full_screen.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/drawable-mdpi_ic_launcher.png.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/mipmap-hdpi_ic_launcher_new_round.webp.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/mipmap-hdpi/ic_launcher_new_round.webp"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/xml_network_security_config.xml.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/layout_activity_token.xml.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/layout/activity_token.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/drawable-xxxhdpi_vector_right_square.png.flat",
+        "source": "com.orbits.queuingsystem.app-pngs-0:/drawable-xxxhdpi/vector_right_square.png"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/drawable-ldpi_ic_launcher_new_background.png.flat",
+        "source": "com.orbits.queuingsystem.app-pngs-0:/drawable-ldpi/ic_launcher_new_background.png"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/drawable-anydpi-v21_vector_blank_square.xml.flat",
+        "source": "com.orbits.queuingsystem.app-pngs-0:/drawable-anydpi-v21/vector_blank_square.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/drawable_screenbg1.jpg.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/drawable/screenbg1.jpg"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/layout_activity_advertise.xml.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/layout/activity_advertise.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/layout_layout_main_service_branch_name.xml.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/layout/layout_main_service_branch_name.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/drawable-anydpi-v21_ic_launcher_new_background.xml.flat",
+        "source": "com.orbits.queuingsystem.app-pngs-0:/drawable-anydpi-v21/ic_launcher_new_background.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/xml_hexkbd.xml.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/xml/hexkbd.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/drawable-xxhdpi_vector_blank_square.png.flat",
+        "source": "com.orbits.queuingsystem.app-pngs-0:/drawable-xxhdpi/vector_blank_square.png"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/drawable-hdpi_companylogo.jpg.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/drawable-hdpi/companylogo.jpg"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/drawable-hdpi_ic_launcher_new_background.png.flat",
+        "source": "com.orbits.queuingsystem.app-pngs-0:/drawable-hdpi/ic_launcher_new_background.png"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/drawable-xxxhdpi_ic_launcher_new_background.png.flat",
+        "source": "com.orbits.queuingsystem.app-pngs-0:/drawable-xxxhdpi/ic_launcher_new_background.png"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/layout_dialog_dbconfig.xml.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/layout/dialog_dbconfig.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/drawable_button_pattern.xml.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/drawable/button_pattern.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/drawable-xhdpi_vector_right_square.png.flat",
+        "source": "com.orbits.queuingsystem.app-pngs-0:/drawable-xhdpi/vector_right_square.png"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/layout_activity_main_ad_scroll_without_logo.xml.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/layout/activity_main_ad_scroll_without_logo.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/layout_layout_select_counter_dialog.xml.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/layout/layout_select_counter_dialog.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/layout_activity_company_logo.xml.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/layout/activity_company_logo.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/mipmap-anydpi-v26_ic_launcher_new_round.xml.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/mipmap-anydpi-v26/ic_launcher_new_round.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/menu_main.xml.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/menu/main.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/layout_dialog_license_entry.xml.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/layout/dialog_license_entry.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/drawable-xhdpi_ic_launcher_new_background.png.flat",
+        "source": "com.orbits.queuingsystem.app-pngs-0:/drawable-xhdpi/ic_launcher_new_background.png"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/drawable-xxxhdpi_vector_blank_square.png.flat",
+        "source": "com.orbits.queuingsystem.app-pngs-0:/drawable-xxxhdpi/vector_blank_square.png"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/drawable-mdpi_vector_blank_square.png.flat",
+        "source": "com.orbits.queuingsystem.app-pngs-0:/drawable-mdpi/vector_blank_square.png"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/drawable-ldpi_vector_blank_square.png.flat",
+        "source": "com.orbits.queuingsystem.app-pngs-0:/drawable-ldpi/vector_blank_square.png"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/menu_token.xml.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/menu/token.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/layout_activity_keyboard.xml.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/layout/activity_keyboard.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/drawable-hdpi_vector_blank_square.png.flat",
+        "source": "com.orbits.queuingsystem.app-pngs-0:/drawable-hdpi/vector_blank_square.png"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/mipmap-mdpi_ic_launcher_new_round.webp.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/mipmap-mdpi/ic_launcher_new_round.webp"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/drawable-hdpi_ic_launcher.png.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/mipmap-hdpi_ic_launcher_new_foreground.webp.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/mipmap-hdpi/ic_launcher_new_foreground.webp"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/menu_advertise.xml.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/menu/advertise.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/mipmap-xxhdpi_ic_launcher_new_round.webp.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/mipmap-xxhdpi/ic_launcher_new_round.webp"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/mipmap-xxxhdpi_ic_launcher_new.webp.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/mipmap-xxxhdpi/ic_launcher_new.webp"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/mipmap-mdpi_ic_launcher_new_foreground.webp.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/mipmap-mdpi/ic_launcher_new_foreground.webp"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/xml_numkbd.xml.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/xml/numkbd.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/layout_layout_connectivity.xml.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/layout/layout_connectivity.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/mipmap-hdpi_ic_launcher_new.webp.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/mipmap-hdpi/ic_launcher_new.webp"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/anim_fadein.xml.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/anim/fadein.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/drawable-xhdpi_vector_blank_square.png.flat",
+        "source": "com.orbits.queuingsystem.app-pngs-0:/drawable-xhdpi/vector_blank_square.png"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/mipmap-xxxhdpi_ic_launcher_new_round.webp.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/mipmap-xxxhdpi/ic_launcher_new_round.webp"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/drawable_blue_key.png.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/drawable/blue_key.png"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/mipmap-xxhdpi_ic_launcher_new_foreground.webp.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/mipmap-xxhdpi/ic_launcher_new_foreground.webp"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/drawable_token_color.xml.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/drawable/token_color.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/drawable-xxhdpi_vector_right_square.png.flat",
+        "source": "com.orbits.queuingsystem.app-pngs-0:/drawable-xxhdpi/vector_right_square.png"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/layout_activity_main.xml.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/drawable-hdpi_advertise.jpg.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/drawable-hdpi/advertise.jpg"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/drawable-anydpi-v21_vector_right_square.xml.flat",
+        "source": "com.orbits.queuingsystem.app-pngs-0:/drawable-anydpi-v21/vector_right_square.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/menu_img_advertise.xml.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/menu/img_advertise.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/drawable_text_button_background.xml.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/drawable/text_button_background.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/layout_activity_token_service_branch_name.xml.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/layout/activity_token_service_branch_name.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/mipmap-mdpi_ic_launcher_new.webp.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/mipmap-mdpi/ic_launcher_new.webp"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/layout_layout_bottom_sheet_picker.xml.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/layout/layout_bottom_sheet_picker.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/xml_popup.xml.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/xml/popup.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/drawable_red_border_in_black_bg.xml.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/drawable/red_border_in_black_bg.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/mipmap-xxxhdpi_ic_launcher_new_foreground.webp.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/mipmap-xxxhdpi/ic_launcher_new_foreground.webp"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/layout_activity_main_scroll_without_ad.xml.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/layout/activity_main_scroll_without_ad.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/mipmap-xxhdpi_ic_launcher_new.webp.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/mipmap-xxhdpi/ic_launcher_new.webp"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/drawable_border.xml.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/drawable/border.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/drawable_layoutborder.xml.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/drawable/layoutborder.xml"
+    },
+    {
+        "merged": "com.orbits.queuingsystem.app-merged_res-5:/menu_company_logo.xml.flat",
+        "source": "com.orbits.queuingsystem.app-main-6:/menu/company_logo.xml"
+    }
+]
